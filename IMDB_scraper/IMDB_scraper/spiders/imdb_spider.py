@@ -57,7 +57,7 @@ class ImdbSpider(scrapy.Spider):
         Assumptions: this method will be called on an IMDB actor page, 
         in this case the Peaky Blinders' actors' pages.
         Effects: this method first leads the scraper to look at elements 
-        with the class filmo-row and then I specified to only include 
+        in the filmography section and then I specified to only include 
         elements with the Id tag starting with actor. I then scraped all 
         the text without the in_production class and extracted to get all 
         the movie titles. To get the actor name, I just looked at the actor
